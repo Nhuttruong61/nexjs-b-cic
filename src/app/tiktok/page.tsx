@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { useRouter } from "next/navigation";
-import ".././globals.css";
+import "../../style/app.css";
 function Tiktok() {
   const router = useRouter();
   const handleNavigate = () => {
